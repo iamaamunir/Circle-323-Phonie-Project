@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Phonie</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-    
-    <h2>make some magic here!!</h2>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+<body>
+  <h1>The Phonie App</h1>
+  <form class="form" autocomplete="off">
+    <img class="hidden img" src="" />
+    <div class="autocomplete">
+      <input type="text" placeholder="First Name" required /> <br />
+      
+      <input type="text" placeholder="Last Name" required /><br />
+
+      <input type="email" placeholder="Email" required /><br /> 
+      <input class="input" type="tel" placeholder="Enter Tel No here.."
+        pattern="(\+)?(234)?(0808|808|0701|701|0708|708|0902|902|0907|907|0901|901)(\d{7})"
+        title="Invalid Phone number, Airtel Numbers Only!" />
+      <button class="btn">Submit</button>
+    </div>
+    <!--     <input class="submitBtn" type="submit" value="submit" /> -->
+    <!--     This pattern also works -->
+    <!-- pattern="(\+234|)(0808|808|0701|701|0708|708|0902|902|0907|907|0901|901)\d{7}$" -->
+  </form>
+
+  <!--
+   h2>make some magic here!!</h2> -->
+  <!- /=============EEND DO NOT EDIT==============// -->
     <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+    <!- //=============EEND DO NOT EDIT==============// -->
+
 </body>
+
 </html>
